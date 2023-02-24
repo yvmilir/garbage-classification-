@@ -1,0 +1,18 @@
+<!--miniprogram/pages/about/service/otherreport/otherreport.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">其他反馈</view>
+</cu-custom>
+
+<view class="cu-bar bg-darkGray search" >
+  <view class=" search-form  round " bindtap="goSearch" >
+    <input type="text" placeholder="请描述您想反馈的问题名称" bindconfirm="getInput_name" focus="{{true}}"></input>
+  </view>
+</view>
+<view class="cu-bar bg-darkGray search" >
+  <view class=" search-form  round " bindtap="goSearch" >
+    <input type="text" placeholder="请描述您想反馈的问题的内容" bindconfirm="getInput_test" focus="{{true}}"></input>
+  </view>
+</view>

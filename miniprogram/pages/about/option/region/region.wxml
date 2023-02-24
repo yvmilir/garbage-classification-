@@ -1,0 +1,17 @@
+<!--miniprogram/pages/about/option/region/region.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">地区</view>
+</cu-custom>
+
+<view class="cu-list menu sm-border card-menu margin-top">
+  <view class="white"></view>
+  <view class="cu-item arrow">
+    <picker class="content" mode="region" bindchange="bindRegionChange" value="{{detailed}}" custom-item="{{customItem}}" 
+name="detailed">
+      <view class="picker {{clas}}" >{{detailed}}</view>
+    </picker>
+  </view>
+</view>

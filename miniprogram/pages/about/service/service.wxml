@@ -1,0 +1,19 @@
+<!--miniprogram/pages/about/service/service.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">客服</view>
+</cu-custom>
+<view class="cu-list menu sm-border card-menu margin-top">
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" role="navigation" url="../service/bugreport/bugreport" >
+      <text class="text-black">bug反馈</text>
+    </navigator>
+  </view>
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" role="navigation" url="../service/otherreport/otherreport" >
+      <text class="text-black">其他反馈</text>
+    </navigator>
+  </view>
+</view>

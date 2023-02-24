@@ -1,0 +1,54 @@
+<!--pages/standard03/standard03.wxml-->
+<text>pages/standard03/standard03.wxml</text>
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">标准</view>
+</cu-custom>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">(重庆、石家庄、太原、大连、长春、苏州、杭州、南昌、海口、昆明等14个城市采用“有害垃圾、易腐垃圾、可回收垃圾、其他垃圾”的分类)</text>
+</view>
+<view class="padding bg-white">
+<view class="text-center text-lg text-balck text-bold">
+  <text class="padding">具体的垃圾分类主要按照以下标准</text>
+</view>
+<view class="text-center text-lg text-balck text-bold">
+  <text class="padding">
+  </text>
+</view>
+
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">易腐垃圾</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">易腐垃圾，指餐饮经营者、单位食堂等生产过程中产生的餐厨垃圾，居民家庭生活中产生的厨余垃圾和集贸市场产生的易腐性垃圾等有机垃圾。包括蔬菜瓜果垃圾、腐肉、肉碎骨、蛋壳、畜禽产品内脏、废弃食用油脂、剩菜剩饭等。</text>
+</view>
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">可回收垃圾</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">可回收垃圾，指适宜回收和资源利用的生活垃圾。包括废塑料、废金属、废包装物、废旧纺织物、废玻璃、废纸塑铝复合包装等。</text>
+</view>
+
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">有害垃圾</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">有害垃圾，指可能对人体健康或者自然环境造成直接或者潜在危害的生活垃圾。包括废电池（镉镍电池、氧化汞电池、铅蓄电池等），废荧光灯管（日光灯管、节能灯等），废温度计，废血压计，废药品及其包装物，废油漆、溶剂及其包装物，废杀虫剂、消毒剂及其包装物，废胶片及废相纸等。</text>
+</view>
+
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">其他垃圾</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">其他垃圾，指除有害垃圾、易腐垃圾、可回收物之外的所有生活垃圾的总称。包括被污染的纸张、无法再生的生活用品、烟蒂、尘土等。</text>
+</view>
+
+
+</view>

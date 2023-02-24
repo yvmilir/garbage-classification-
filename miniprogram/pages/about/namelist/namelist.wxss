@@ -1,0 +1,5 @@
+/* miniprogram/pages/about/namelist/namelist.wxss */
+.line {
+  background-color: rgba(241,241,241);
+  height: 30rpx;
+}

@@ -1,0 +1,375 @@
+
+<view class="white"></view> 
+<view class="cu-bar bg-white"> 
+   <view class="action border-title"> 
+    <text class="text-xl text-bold text-blue"> 
+    资讯 
+    </text> 
+    <text class="bg-gradual-blue"style="width:3rem"></text> 
+   </view> 
+</view>
+
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange">
+
+ <block wx:if="{{tabs[0].isActive}}">     
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotoabroad01">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">了解美国城镇的垃圾分类现状</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/1.png"></image>
+<view class="desc">
+<view class="text-content"> 说起国外的垃圾分类，很多人会想到日本，还有欧洲的一些发达国家，他们的垃圾分类经验给国内开展相关的工作带来了很多启示。而美国的垃圾分类，似乎并没有得到太多的赞扬，真的如此吗？今日我们跟随美国驻华大使馆工作人员来了解美国的垃圾分类现状。</view>
+<view>
+<view class="cu-tag bg-red light sm round">国际视野</view>
+<view class="cu-tag bg-green light sm round">美国</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotoabroad02">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">垃圾分类是德国居民“必修课”</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/germany/1.png"></image>
+<view class="desc">
+<view class="text-content"> 2015年，随着上百万难民涌入德国，数以万计的德国志愿者参与到了救助难民的行动当中。但令很多人想不到的是，德国志愿者的一项重要任务就是教会难民如何进行垃圾分类。毕竟除了短暂逗留的外国游客外，垃圾分类是每个在德居民的“必修课”。</view>
+<view>
+<view class="cu-tag bg-red light sm round">新华社</view>
+<view class="cu-tag bg-green light sm round">德国</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotoabroad03">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">日本的垃圾分类</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/1.png"></image>
+<view class="desc">
+<view class="text-content"> 日本从1980年就开始实行垃圾分类回收，如今已经成为世界上垃圾分类回收做得最好的国家。目前，日本每年人均垃圾生产量只有410公斤，为世界最低。更重要的是，垃圾分类投放已经成为日本民众的一种自觉行为，即使没人监督也会严格执行。</view>
+<view>
+<view class="cu-tag bg-red light sm round">国际视野</view>
+<view class="cu-tag bg-green light sm round">日本</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+    
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotoabroad04">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">我眼中的韩国垃圾分类</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/korea/1.png"></image>
+<view class="desc">
+<view class="text-content"> 来韩国学习的第一件事情就是垃圾分类,韩国在垃圾处理方面管理很严，垃圾投放处都有摄像头，如果有人乱扔垃圾会被罚款，罚金是韩币20万起（人民币1200元左右），这不是开玩笑的，夏天的时候我家楼上就被罚了20万，张贴在门上。</view>
+<view>
+<view class="cu-tag bg-red light sm round">留学</view>
+<view class="cu-tag bg-green light sm round">韩国</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotoabroad05">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">英国：生活中的垃圾分类</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/1.png"></image>
+<view class="desc">
+<view class="text-content"> 刚到英国的我们可能不太了解英国的垃圾分类，或者也不怎么关心这个问题，其实英国的垃圾回收还蛮严格的，如果不好好分类随便乱丢，垃圾有可能会被拒收或者被邻居投诉。不过英国各个城市以及伦敦不同区垃圾回收的规定都不太一样，在这里给大家综合了一下基本的垃圾回收方法，那该怎么将垃圾分类，废旧家具电器该怎么回收呢？</view>
+<view>
+<view class="cu-tag bg-red light sm round">国际视野</view>
+<view class="cu-tag bg-green light sm round">英国</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+    </block>
+
+ <block wx:if="{{tabs[1].isActive}}">       
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotolocal01">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">各地垃圾分类标准稍有差异 八成以上采取“四分法”</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/20.jpg"></image>
+<view class="desc">
+<view class="text-content"> “能卖拿去卖、有害单独放、干湿要分开”“可回收，丢蓝色，有害垃圾丢红色，厨余垃圾是绿色，其他垃圾用灰色。”当上海的居民通过各种段子、顺口溜中学习垃圾分类的诀窍时，北京的强制垃圾分类时代到来了。</view>
+<view>
+<view class="cu-tag bg-red light sm round">法治周末</view>
+<view class="cu-tag bg-green light sm round">四分法</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+      
+
+      
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotolocal02">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">垃圾分类怎么做？机构启动编制生活垃圾处置标准</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/in/1.png"></image>
+<view class="desc">
+<view class="text-content"> 随着垃圾分类在各地逐步展开，如何对生活垃圾进行分类也成了热议的话题。16日，研究机构在北京启动编制《生活垃圾实施处置评价标准》。</view>
+<view>
+<view class="cu-tag bg-red light sm round">中新网</view>
+<view class="cu-tag bg-green light sm round">处置标准</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotolocal03">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">全国有237个城市已启动垃圾分类 过半居民小区生活垃圾已分类</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/in/2.png"></image>
+<view class="desc">
+<view class="text-content"> 根据住房和城乡建设部的统计，目前，全国有237个城市已启动垃圾分类，上海、厦门、杭州、宁波、广州、深圳等18个城市生活垃圾分类居民小区覆盖率超过70%。2019年“全面启动”和“强制分类”的按钮按下后，各地落实情况究竟如何？记者进行了追踪。</view>
+<view>
+<view class="cu-tag bg-red light sm round">全国</view>
+<view class="cu-tag bg-green light sm round">落实情况</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotolocal04">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">让垃圾分类政策落地跑起来</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/21.jpg"></image>
+<view class="desc">
+<view class="text-content"> 将生活垃圾分类，提高其资源利用水平，不断改善环境质量，多数群众是举双手赞成的。然而，在实施过程中，“但听楼梯响，不见人下来”的情况依然常见，真正动手分垃圾的还是少数，以至于这项工作推动多年，效果不尽如人意。2019年开始的新一轮生活垃圾分类高起点规划，全面动员，各方面有望取得新突破。</view>
+<view>
+<view class="cu-tag bg-red light sm round">政策</view>
+<view class="cu-tag bg-green light sm round">落实</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotolocal05">
+ <view class="cu-card article">
+<view class="cu-item shadow">
+<view class="title">
+<view class="text-cut">我国垃圾处理现状及垃圾分类行业发展趋势分析</view>
+</view>
+<view class="content">
+<image mode="aspectFill"src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/in/5.png"></image>
+<view class="desc">
+<view class="text-content"> 中国垃圾处理现状分析。垃圾分类政策早有出台，近年来不断加码：1、最高领导强调，住建部等九部委文件紧跟，2019年46城启动、5年内全国建成，高度及推进力度空前；2、对于民众，由提倡变为强制，法制确立处罚挂钩，自上而下全面推动；3、对于地方政府，新增垃圾分类工作成果考核，住建部打分，政绩考核下驱动力增强，此次垃圾分类的强制推行将对整个固废产业链产生深远影响。</view>
+<view>
+<view class="cu-tag bg-red light sm round">垃圾处理</view>
+<view class="cu-tag bg-green light sm round">现状与趋势</view>
+</view>
+</view>
+</view>
+</view>
+</view>
+     </button>
+    </block>
+
+
+<block wx:if="{{tabs[2].isActive}}">
+
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotostandard01">
+  <view class="cu-card">
+<view bindtap="toChild"class="cu-item bg-img shadow-blur"data-url="/indexes/indexes"style="background-image:url(https://ae01.alicdn.com/kf/Hfa50833ffb244df899ece4f8c8c92c59i.jpg)">
+北京
+<view class="cardTitle" style="height:70rpx"></view>
+</view>
+</view>
+</button>
+
+
+<button class="btn1"role="button"hover-class="btn-hover"bindtap="gotostandard02">
+  <view class="cu-card">
+<view bindtap="toChild"class="cu-item bg-img shadow-blur"data-url="/indexes/indexes"style="background-image:url(https://ae01.alicdn.com/kf/H1632e2d4afa94f5c802d36108ad5efd8O.jpg)">
+上海
+<view class="cardTitle" style="height:70rpx"></view>
+</view>
+</view>
+</button>
+
+
+ <button class="btn1"role="button"hover-class="btn-hover"bindtap="gotostandard03">
+  <view class="cu-card">
+<view bindtap="toChild"class="cu-item bg-img shadow-blur"data-url="/indexes/indexes"style="background-image:url(https://ae01.alicdn.com/kf/H95fe66fb496e473ab48d64fbf7150238M.jpg)">
+重庆
+<view class="cardTitle" style="height:70rpx"></view>
+</view>
+</view>
+</button>
+
+<button class="btn1"role="button"hover-class="btn-hover"bindtap="gotostandard04">
+  <view class="cu-card">
+<view bindtap="toChild"class="cu-item bg-img shadow-blur"data-url="/indexes/indexes"style="background-image:url(http://image.naic.org.cn/uploadfile/2018/0228/1519796425516674.jpg)">
+拉萨
+<view class="cardTitle" style="height:70rpx"></view>
+</view>
+</view>
+</button> 
+
+<button class="btn1"role="button"hover-class="btn-hover"bindtap="gotostandard05">
+  <view class="cu-card">
+<view bindtap="toChild"class="cu-item bg-img shadow-blur"data-url="/indexes/indexes"style="background-image:url(https://5b0988e595225.cdn.sohucs.com/images/20180501/5b61011e6d834ec7b611a0428fb73569.jpeg)">
+福州
+<view class="cardTitle" style="height:70rpx"></view>
+</view>
+</view>
+</button> 
+
+<button class="btn1"role="button"hover-class="btn-hover"bindtap="gotostandard06">
+  <view class="cu-card">
+<view bindtap="toChild"class="cu-item bg-img shadow-blur"data-url="/indexes/indexes"style="background-image:url(http://img-arch.pconline.com.cn/images/upload/upc/tx/photoblog/1102/19/c5/6782278_6782278_1298113755859_mthumb.jpg)">
+广元
+<view class="cardTitle" style="height:70rpx"></view>
+</view>
+</view>
+</button> 
+</block>
+
+
+
+
+
+
+
+
+
+
+ <block wx:if="{{tabs[3].isActive}}">
+
+
+ <view class="padding bg-white">
+ <view class="text-center text-xl text-balck text-bold">
+   <text class="padding">生活垃圾分类TIPS</text>
+ </view>
+
+ <view class="text-lg text-balck">
+  <text class="cuIcon-right">放置厨房垃圾、其他垃圾两个垃圾桶（厨房、客厅各一个，也可在卫生间设一个）</text>
+ </view>
+  <view class="text-lg text-balck">
+  <text class="cuIcon-right">勿将豆腐盒、料酒袋、速冻食品等包装物、塑料袋等投入厨房垃圾</text>
+ </view>
+
+  <view class="text-lg text-balck">
+  <text class="cuIcon-right">买菜尽可能少带回塑料袋，带回塑料袋勿投入厨房垃圾</text>
+ </view>
+
+  <view class="text-lg text-balck">
+  <text class="cuIcon-right">在客厅吃水果，剩余的果皮要投入厨房垃圾中</text>
+ </view>
+
+  <view class="text-lg text-balck">
+  <text class="cuIcon-right">厨房垃圾要日产日清</text>
+ </view>
+
+  <view class="text-lg text-balck">
+  <text class="cuIcon-right">废旧灯管、过期药品、化妆品、油漆桶等投入有害垃圾中</text>
+ </view>
+
+  <view class="text-lg text-balck">
+  <text class="cuIcon-right">有害垃圾集中丢弃</text>
+ </view>
+
+  <view class="text-lg text-balck">
+  <text class="cuIcon-right">酱油瓶、啤酒瓶等玻璃瓶投入可回收物</text>
+ </view>
+
+ <view class="text-lg text-balck">
+  <text class="cuIcon-right">牛奶盒、饮料瓶等投入可回收垃圾前要将剩余的倒掉再投入，能清洗一下更好</text>
+ </view>
+
+ <view class="text-lg text-balck">
+  <text class="cuIcon-right">可回收物鼓励自行出售（报纸、包装纸箱等）</text>
+ </view>
+
+ <view class="text-lg text-balck">
+  <text class="cuIcon-right">卫生间厕纸、婴儿尿不湿等投入其他垃圾</text>
+ </view>
+
+ <view class="text-lg text-balck">
+  <text class="cuIcon-right">使用后的面巾纸、纸杯塑料包装物、旧衣服等投入其他垃圾</text>
+ </view>
+
+ <view class="text-lg text-balck">
+  <text class="cuIcon-right">扫地产生的灰尘投入其他垃圾</text>
+ </view>
+
+ <view class="text-center text-lg text-balck">
+  <text class="padding">........................................................</text>
+  </view>
+
+ <view class="text-lg text-balck">
+  <text class="padding">或者要是还分不清的话，不如养头猪？</text>
+ </view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/25.png" class='in-image'   >
+  </image>
+</view>
+
+  </view>
+    </block>
+
+ </Tabs>  
+        
+
+
+
+
+
+
+
+
+
+

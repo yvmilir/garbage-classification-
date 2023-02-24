@@ -1,0 +1,23 @@
+<!--miniprogram/pages/about/service/bugreport/bugreport.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">bug反馈</view>
+</cu-custom>
+
+<view class="cu-bar bg-darkGray search" >
+  <view class=" search-form  round " bindtap="goSearch" >
+    <input type="text" placeholder="请描述您遇到的bug的表现" bindconfirm="getInput_name" focus="{{true}}"></input>
+  </view>
+</view>
+<view class="cu-bar bg-darkGray search" >
+  <view class=" search-form  round " bindtap="goSearch" >
+    <input type="text" placeholder="请描述您遇到bug的时间、界面" bindconfirm="getInput_time" focus="{{true}}"></input>
+  </view>
+</view>
+<view class="cu-bar bg-darkGray search" >
+  <view class=" search-form  round " bindtap="goSearch" >
+    <input type="text" placeholder="请描述您遇到bug时正在进行的操作" bindconfirm="getInput_doing" focus="{{true}}"></input>
+  </view>
+</view>

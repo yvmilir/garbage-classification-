@@ -1,0 +1,10 @@
+/* miniprogram/pages/about/service/bugreport/bugreport.wxss */
+.cu-bar .search-form input {
+flex: 1;
+padding-right: 30rpx;
+height: 64rpx;
+line-height: 64rpx;
+font-size: 26rpx;
+background-color: rgba(241,241,241);
+
+}

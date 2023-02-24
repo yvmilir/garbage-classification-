@@ -1,0 +1,93 @@
+    <!--pages/abroad01/abroad01.wxml-->
+<text>pages/abroad01/abroad01.wxml</text>
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国外</view>
+</cu-custom>
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">了解美国城镇的垃圾分类现状</text>
+</view>
+
+<view class="text-indent:2em text-lg padding">
+  <text class ="text-black">家园导读：说起国外的垃圾分类，很多人会想到日本，还有欧洲的一些发达国家，他们的垃圾分类经验给国内开展相关的工作带来了很多启示。而美国的垃圾分类，似乎并没有得到太多的赞扬，真的如此吗？今日我们跟随美国驻华大使馆工作人员来了解美国的垃圾分类现状。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">垃圾分类逐渐成为低碳生活的新时尚。我们在讨论国内垃圾分类的时候，也经常提起国外的垃圾分类现状。很多人会想到日本，还有欧洲的一些发达国家，他们的垃圾分类经验给国内开展相关的工作带来了很多启示。而美国的垃圾分类，似乎并没有得到太多的赞扬，真的如此吗？今日我们通过美国驻华大使馆工作人员Jian an的亲身经历，来了解美国城镇的垃圾分类现状，以期为国内城市开展垃圾分类工作提供一些经验和启示。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">美国的大小城镇都有垃圾清运管理的法规，由中标的公司执行。至于回收，则各地情况不同，少数特别是较为偏远的地方，目前甚至尚未对垃圾进行分类回收。Jian an曾经长期居住在首都华盛顿市郊，该地区的家庭普通垃圾是每个星期收集两次，可回收利用的每星期一次。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">数年前搬家到了旧金山湾区，在搬进新家的时候，与居民小区管委会签有合约的垃圾公司，就会送来两个半人高的垃圾桶，住家按照规定的日期，将垃圾桶推到路边，等垃圾车来把垃圾倒空之后，再自己搬回去，费用则包含在小区管理费之中。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">早在1990年代的末期，该小区刚刚部分建成开售的时候，每户社区费每个月是30美元左右，到21世纪的第二个十年的时候，已经涨到了70美元，但那主要不是垃圾清运费涨价造成的，而是小区建成了社区活动中心，有对内免费的游泳池和篮球网球场等，运营管理费用大幅增加的结果。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">现在Jian an所住的地方，垃圾费与社区管理费是分开的，垃圾清运由一家覆盖全美的公司（Republic Services共和服务公司）负责。该公司提供不同价格的服务，由各户自行选择，包括普通（回填）垃圾、堆肥垃圾和可回收垃圾等三类，每种垃圾公司都会提供一个垃圾桶，每个星期回收一次。如果三类都要（小区多数人家的选择），目前每季度大约110美元，个别人家只选普通垃圾一项，当然会便宜一些。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">这里所说的可回收垃圾，只包含最普通几类，即纸张纸板、包装盒、塑料和玻璃瓶罐等。不包括电器、家具、衣物等，特别是严重污染环境的电池、油脂等，是不能放进回收垃圾桶里去的。如果你有这类废弃物品的话，得自己送到免费的回收站，还可以向垃圾公司预约，花钱请他们来收走。小区也会每年组织一两次集体的免费回收活动，各家各户将那些平时垃圾公司不收的，特别是又大又重的物品，例如床垫、电视机等，自己想办法送到指定的地点，由垃圾公司出车收走。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/1.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">从左至右：可用于堆肥的垃圾桶、普通垃圾桶和可回收垃圾桶，其中普通垃圾桶还有三种尺寸，收费也有所不同。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/2.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">小区附近的垃圾回收站，水电等消耗资源100%地自给自足。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/3.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">回收站有设置专门的废旧玻璃、电池、塑料和衣袜等的回收桶。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/4.png" class='in-image'   >
+  </image>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/5.png" class='in-image'   >
+  </image>
+</view>
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/6.png" class='in-image'   >
+  </image>
+</view>
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/7.png" class='in-image'   >
+  </image>
+</view>
+
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">当然，还有类似二手交易的分拣小屋，这里的旧书和玩具完全免费，各取所需。</text>
+</view>
+
+</view>

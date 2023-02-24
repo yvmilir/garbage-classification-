@@ -1,0 +1,11 @@
+/* miniprogram/pages/test/test.wxss */
+page {
+  background: #FFFFFF;
+}
+.testcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%
+}

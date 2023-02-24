@@ -1,0 +1,22 @@
+<!--miniprogram/pages/about/option/option.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">设置</view>
+</cu-custom>
+
+<view class="cu-list menu sm-border card-menu margin-top">
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" role="navigation" url="../option/region/region" >
+      <text class="text-black">更改地区</text>
+    </navigator>
+  </view>
+  <!--
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" role="navigation" url="../option/wordtype/wordtype" >
+      <text class="text-black">更改字体</text>
+    </navigator>
+  </view>
+  -->
+</view>

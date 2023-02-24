@@ -1,0 +1,79 @@
+<!--pages/news/abroad04/abroad04.wxml-->
+<text>pages/news/abroad04/abroad04.wxml</text>
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国外</view>
+</cu-custom>
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">我眼中的韩国垃圾分类</text>
+</view>
+
+
+<view class="text-indent:2em text-lg padding">
+  <text class ="text-black">来韩国学习的第一件事情就是垃圾分类,韩国在垃圾处理方面管理很严，垃圾投放处都有摄像头，如果有人乱扔垃圾会被罚款，罚金是韩币20万起（人民币1200元左右），这不是开玩笑的，夏天的时候我家楼上就被罚了20万，张贴在门上。认识的一个留学生在搬家时，房东扣了一部分保证金，原因就是乱扔垃圾被罚款了，为了避免这些不愉快的事情，即使很麻烦也要学好垃圾分类。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/korea/1.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在家门口都有类似的垃圾筐，分为纸制品，塑料制品，瓶和罐，把可以回收处理的用品按类别扔在这里就可以，纸箱，报纸，书籍，也是整理好之后，放在垃圾筐旁边就可以。要扔掉的衣物，鞋子，包包，被子，沙发垫窗帘这些东西都是放在绿色回收箱里的，必须清洗干净，鞋子也得是一双才可以放进去，如果是一只鞋只能做废弃物处理。家具类的不管大小都要贴上废弃物处理标签才能扔掉，在居民中心可以买到标签，分类非常细致，从镜子，衣柜，单人床双人床，尺寸不同，价格不等，只要你想扔的都能找到类别和价格，下面的价格只是其中一部分。但是实际生活中很多人不愿意花钱处理家具，搬家时把家具直接扔在门口走了。贴上标签后放在门口会比较好，我妈妈把两个床头柜扔在门口就没有贴标签，垃圾处理的人就来告诉她，要贴标签才可以扔，她就说知道了，转天换了个地方放，还好柜子被别人带走了，要不然又得来找她贴标签。还有一部分人会在二手网站处理家具，不急着处理的就会卖掉，着急处理的就免费分享出去。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/korea/2.png" class='in-image'   >
+  </image>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/korea/3.png" class='in-image'   >
+  </image>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/korea/4.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">生活垃圾和食物垃圾才是最繁琐的部分，家里至少两个垃圾袋，一个放置回收用品，一个放废弃物垃圾。以饼干为例，饼干盒子就要放在回收处，饼干塑料袋就是废弃物。酸奶盒也是一样，下面的塑料盒洗干净之后得放在回收处，上面的塑料膜就是废弃物。像鸡蛋壳，骨头等虽然是食物类，但也要归废弃物处理，这方面我就做的不严格了。因为会产生味道都放进食物垃圾袋。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/korea/5.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">上面左边是食物垃圾袋最小号，右边是废弃物垃圾最小号，每个城市的垃圾袋都不一样，大小颜色也有一些差异。食物垃圾袋是60元（人民币0.4元）一个，废弃物垃圾袋是130元（人民币0.8）一个。这个费用也就是我们的垃圾处理费，这样垃圾处理方面就不需要另外收费了。废弃物垃圾还好说，食物垃圾真是不好保管，尤其夏季家里到处是味道还会招来小飞虫，第一次去买垃圾袋，我想买的是食物垃圾袋，结果买来的是15升的废弃物垃圾袋，然后一直装食物垃圾，可想而知家里成了什么样子，当时都愁死了，不知道怎么办好，多逛了几次超市就知道自己买错了垃圾袋。现在我是自己住，因为只做早饭，在家吃水果，所以家里食物垃圾很少，我就会把食物垃圾袋放在冰箱冷冻室里。住在高层公寓会有食物垃圾投放箱，打卡式的，扔多少扣多少钱。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/korea/6.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">我家里的待回收垃圾，午餐肉的盒子，咖啡盒，装水果和豆腐的盒子，卫生纸卷筒和装黄瓜的袋子，这些都是可以回收利用的，应该分类扔掉，但是我现在住的地方没有分类箱，只能多收集一些，放在白色塑料袋里扔掉。关于垃圾投放时间，平时是晚上八点以后，早上六点之前，节假日期间因为没有人收垃圾，这期间不允许投放垃圾，这一点首尔地区管理很严，首尔以外的城市就比较随便一点。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">关于韩国的垃圾分类就简单介绍了一下，虽然很麻烦但应该适用于所有国家所有人。我们生活的环境东西太多了，当每一样东西处理起来都要花钱，你购买的时候就会慎重考虑，使用的时候也会珍惜，生活中的浪费会少很多。</text>
+</view>
+
+<view class="flex-sub text-black text-bold">
+  <text class="padding">作者：尹小伊_</text>
+</view>
+<view class="flex-sub text-black text-bold">
+  <text class="padding">来源：简书</text>
+</view>
+
+</view>
+
+

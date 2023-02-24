@@ -1,0 +1,58 @@
+<!--miniprogram/pages/about/namelist/namelist.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">开发人员名单</view>
+</cu-custom>
+
+<view class="line"></view>
+<view class="line"></view>
+
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">张小钰</text>
+</view>
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">xxxx</text>
+  <text class="padding">负责xxx</text>
+</view>
+
+<view class="line"></view>
+
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">梁军</text>
+</view>
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">xxxx</text>
+  <text class="padding">负责xxx</text>
+</view>
+
+<view class="line"></view>
+
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">陈珂</text>
+</view>
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">xxxx</text>
+  <text class="padding">负责xxx</text>
+</view>
+
+<view class="line"></view>
+
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">孙宁宁</text>
+</view>
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">xxxx</text>
+  <text class="padding">负责xxx</text>
+</view>
+
+<view class="line"></view>
+
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">王晓斌</text>
+</view>
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">本群最菜</text>
+  <text class="padding">负责关于模块和划水</text>
+</view>

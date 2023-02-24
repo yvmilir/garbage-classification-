@@ -1,0 +1,30 @@
+<search wx:if="{{PageCur=='search'}}"></search>
+<news wx:if="{{PageCur=='news'}}"></news>
+<practice wx:if="{{PageCur=='practice'}}" rank="20000"></practice>
+<about wx:if="{{PageCur=='about'}}"></about>
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="search">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/search{{PageCur=='search'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='search'?'text-blue':'text-gray'}}">搜索</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="news">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/news{{PageCur=='news'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='news'?'text-blue':'text-gray'}}">资讯</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="practice">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/practice{{PageCur=='practice'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='practice'?'text-blue':'text-gray'}}">练习</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="about">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/about{{PageCur=='about'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='about'?'text-blue':'text-gray'}}">关于</view>
+  </view>
+</view>

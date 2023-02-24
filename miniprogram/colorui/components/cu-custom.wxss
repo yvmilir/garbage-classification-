@@ -1,0 +1,6 @@
+/* colorui/components/cu-custom.wxss */
+.searchBar{
+  background-color: #bfbfbf;
+  height: 50px;
+  width: 600rpx;
+}

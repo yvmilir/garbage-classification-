@@ -1,0 +1,4 @@
+/* miniprogram/pages/about/option/groundcolor/groundcolor.wxss */
+.userinfo { 
+  background: #66ccff; 
+} 

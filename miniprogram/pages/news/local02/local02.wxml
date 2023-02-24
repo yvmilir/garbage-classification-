@@ -1,0 +1,56 @@
+<!--pages/local02/local02.wxml-->
+<text>pages/local02/local02.wxml</text>
+
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国内</view>
+    </cu-custom>
+
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">垃圾分类怎么做？机构启动编制生活垃圾处置标准</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">中新网北京1月17日电 随着垃圾分类在各地逐步展开，如何对生活垃圾进行分类也成了热议的话题。16日，研究机构在北京启动编制《生活垃圾实施处置评价标准》。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/in/1.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">1月16日，中国工程建设标准化协会标准——《生活垃圾实施处置评价标准》编制组成立暨第一次工作会议在北京召开。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">主编单位代表颜昌龙介绍，目前，参与垃圾分类和处置的企业数量呈爆发式增长，已有1万家左右；就全国垃圾生产量来看，2018年生产垃圾2.7亿吨，年增长率4.9%，增量巨大，而待处理的存量垃圾有近20年的存量。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">以西安为例，如果还没有做好生活垃圾的分类处置以及再利用措施，到2021年的时候，西安的垃圾将无处可去，形势较为紧迫。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">有专家介绍，目前国内垃圾分类 “从零探索”阶段即将结束，即将进入智能化、规范化、大面积建设阶段，以GIS、物联网、云计算、大数据等技术的综合应用，建立垃圾分类大数据监管平台，从而实现垃圾分类全过程的溯源管理，高效提升垃圾分类各环节的作业质量，有效降低城市分类试错成本。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">据介绍，主办方介绍，制订发布《生活垃圾实施处置评价标准》，是生活垃圾分类标准化建设的需要，是“无废城市”建设的需要，有助于进一步规范生活垃圾分类行为，加强分类工作管理，强化分类过程监管职责，多措并举全力推进生活垃圾分类，营造全社会参与的良好氛围。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">《生活垃圾实施处置评价标准》编制组一致确认了这份评价标准的总则、术语、基本规定，确认了编制大纲和编制的主要技术内容为：评价程序、 评价等级、 垃圾分类教育培训体系、生活垃圾标志标识、 生活垃圾分类投放、生活垃圾分类收集、生活垃圾分类运输、生活垃圾分类处理、生活垃圾分类监管体系、生活垃圾分类产业重构与数字化。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">此外，还提出了全新的垃圾分类方式方法论，从数据着手，利用大数据分析平台的优势，做好数据分类，让现有的生态更高效地运转，规范生态操作流程；让垃圾分类全数据化，流程化，真正做到“垃圾分类智能化，投放监管数字化”。</text>
+</view>
+
+
+
+</view>

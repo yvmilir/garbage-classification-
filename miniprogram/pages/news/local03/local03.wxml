@@ -1,0 +1,79 @@
+<!--pages/news/local03/local03.wxml-->
+<text>pages/news/local03/local03.wxml</text>
+
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国外</view>
+</cu-custom>
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">全国有237个城市已启动垃圾分类 过半居民小区生活垃圾已分类</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/in/2.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">根据住房和城乡建设部的统计，目前，全国有237个城市已启动垃圾分类，上海、厦门、杭州、宁波、广州、深圳等18个城市生活垃圾分类居民小区覆盖率超过70%。2019年“全面启动”和“强制分类”的按钮按下后，各地落实情况究竟如何？记者进行了追踪。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">有罚有奖 立法助推垃圾分类</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">按照国家发改委、住房和城乡建设部生活垃圾分类制度实施方案的要求，到2020年底，基本建立垃圾分类相关法律法规和标准体系。记者从住房和城乡建设部了解到，浙江、福建、广东、海南等4省已出台地方法规，河北等12省份地方法规进入立法程序。46个重点城市中，已有30个城市出台生活垃圾分类法规或规章，还有16个城市将生活垃圾分类纳入立法计划或已形成草案。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">出台法规的30个城市均对垃圾分类提出强制要求，明确对违法行为进行处罚，其中以罚款为主，警告或限期整改为辅。多数城市规定对个人最高罚款200元，对单位最高处罚5万元。截至目前，广州执法立案查处613宗，行政罚款近72万元。西安市2019年9月正式实施垃圾分类，9月3日开出第一张“行政处罚决定书”——雁塔区一小区因垃圾分类引导员不到位及垃圾未分类投放，被罚款1000元。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在46个重点城市中，太原、深圳等16个城市还用信用惩戒手段，将单位和个人因拒不承担生活垃圾分类责任被处罚的，作为不良行为记录纳入公共信用信息系统，实施联合惩戒。奖惩并重是此次垃圾强制分类的一个突出特点。北京、上海、厦门、宁波等城市还对生活垃圾分类成绩突出的单位和个人予以表彰或奖励。深圳规定，分类成效显著的家庭可获得2000元补助资金，住宅区最高30万元。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">目前，在46个重点城市，生活垃圾分类覆盖7.7万个小区和4900万户家庭，居民小区覆盖率平均达到53.9%。其中，上海等18个城市覆盖率超过70%。垃圾分类达标率也不断提升。广州的生活垃圾回收利用率达35.6%。上海居住区垃圾分类达标率已从2018年的15%提升至90%。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">“花式”探索 物质鼓励科技手段齐上</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">值得关注的是，一些地方探索通过物质鼓励，激发市民对垃圾分类的积极性。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">西安市长安区探索“垃圾银行”模式，生活垃圾进行分类，粘贴二维码后投入回收箱积分，积分可在指定超市兑换生活用品等。西安市浐灞生态区一家物业公司自主研发了一个线上绿色生活垃圾分类管理平台。小区住户在平台上实名注册成为绿色会员，垃圾回收后可累计积分，积分可兑换获益。目前浐灞生态区绿色会员用户5万余户，一个月大概有10吨的可回收物。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">还有一些地方通过科技手段推动垃圾分类。上海推行智能垃圾箱房，需要在规定时间内刷指定卡才能开箱投放。每张卡“绑定”一户居民，投放时卡对应的居民信息会自动传输到居委会后台，居委会可以判断居民垃圾分类投放情况，快速找到不遵守规定的个体。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">垃圾强制分类更带动了相关产业发展。随着源头端分类垃圾规模的扩大，后端处理市场迅速扩大。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">难题待解 投放装运监管存盲区</text>
+</view>
+
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">记者采访发现，目前垃圾分类政策落地仍面临一些问题。例如，一些地方条例明确“不分类不收运”，制定了第三方不定期抽查小区的方案。但基层人员表示，对于没分好的垃圾，环卫车辆不敢不收运，否则大片区域垃圾腐烂影响城市环境和正常运行。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">上海市绿化市容局环卫处处长徐志平建议，探索以技术加管理的方式代替目前主要靠人工值守的监督方式。阿里巴巴环保业务负责人曹启明建议，通过二维码、视频监控识别、物联网感知等技术，实现从投放到处置全周期的数据收集、共享并进行智能化分析，更好地识别、监督混投、混装、混运等行为。</text>
+</view>
+
+
+</view>

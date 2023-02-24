@@ -1,0 +1,49 @@
+<!--miniprogram/pages/testmenu/testmenu.wxml-->
+<view catchtap="updateData" style="height:{{windowHeight}}px">
+  <view class="white"></view>
+  <view class="cu-bar bg-white">
+    <view class="action border-title">
+      <text class="text-xl text-bold text-blue">
+    垃圾分类小练习
+    </text>
+      <text class="bg-gradual-blue" style="width:3rem"></text>
+    </view>
+  </view>
+  <block id="test-munu-body">
+    <view id="test-menu-top" class="grid col-2 margin-bottom text-center padding" catchtap="updateData">
+      <view id="text-menu-ranking" class="text-left">
+        <text class="cuIcon-rank padding-right-xs"></text>
+        <text>排名: 第 {{rank}} 名</text>
+      </view>
+      <view id="text-menu-points" class="text-right">
+        <text>积分: {{points}} </text>
+        <text class="cuIcon-question padding-right-xs"></text>
+      </view>
+    </view>
+    <view id="test-menu-content" style="margin-top:{{windowHeight/3}}px">
+      <view class="testmenucenter padding-bottom" data-target="RadioModal" bindtap="showModal"> 难度 ：
+        <text class="">{{levelname}} 
+     </text>
+        <text class="cuIcon-unfold"></text>
+      </view>
+      <view class="testmenucenter">
+        <button class="cu-btn center bg-white" role="button" bindtap="startTest">开始</button>
+      </view>
+    </view>
+    <view id="test-menu-foot"></view>
+  </block>
+  <view class="cu-modal {{modalName=='RadioModal'?'show':''}}" bindtap="hideModal">
+    <view class="cu-dialog">
+      <radio-group class="block" bindchange="radioChange">
+        <view class="cu-list menu text-left">
+          <view class="cu-item" wx:for-items="{{toppic}}" wx:key="index">
+            <label class="flex justify-between align-center flex-sub">
+              <view class="flex-sub">{{item.content}}</view>
+              <radio class="round" checked="{{item.checked}}" value="{{item.name}}"></radio>
+            </label>
+          </view>
+        </view>
+      </radio-group>
+    </view>
+  </view>
+</view>

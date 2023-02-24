@@ -1,0 +1,103 @@
+<!--pages/news/local05/local05.wxml-->
+<text>pages/news/local05/local05.wxml</text>
+
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国内</view>
+    </cu-custom>
+
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">我国垃圾处理现状及垃圾分类行业发展趋势分析</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">中国垃圾处理现状分析</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">垃圾分类政策早有出台，近年来不断加码：1、最高领导强调，住建部等九部委文件紧跟，2019年46城启动、5年内全国建成，高度及推进力度空前；2、对于民众，由提倡变为强制，法制确立处罚挂钩，自上而下全面推动；3、对于地方政府，新增垃圾分类工作成果考核，住建部打分，政绩考核下驱动力增强，此次垃圾分类的强制推行将对整个固废产业链产生深远影响。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">垃圾分类是当下制约我国环保事业发展的瓶颈之一，也是造成环境污染、资源再利用困难的根源之一。近年来，我国正加速推进垃圾分类工作。特别是2019年，上海市率先发布了《上海市生活垃圾管理条例》，垃圾分类进入了强制时代。在政策的指导下和社会环境形势的驱动下，根据城乡实际特点，分别采取不同的分类收运方法，有效解决现行城乡生活垃圾混合收集清运的单一模式，形成垃圾分类回收资源化利用的产业化格局，进一步提高城乡生活垃圾资源化、资源化和无害化水平，是当前以及未来一段时间发展的主旋律，因此，我国垃圾分类行业将在良好的政治局面下，迎来市场的开端。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在政府高度重视生态环境的同时，垃圾处理作为环境保护的关键组成部分，同样得到了重视。由于垃圾处理之中可以收获巨大的经济效益，同时也得到了市场的青睐。从垃圾处理投资的建设规划来看，根据《“十三五”城镇无害化处理生活垃圾的设施建设规划》，“十三五”期间，国家在无害化处理城镇生活垃圾的设施建设期间，投资总额累计达到了2518.4亿元。其中，投资建设无害化处理设施的资金累计达到了1699.3亿元，投资建设收运转运体系的资金累计达到了257.8亿元，在专项餐厨垃圾工程的投入资金累计达到了183.5亿元，投资于存量整治工程的资金累计达到了241.4亿元，投入到垃圾分类示范工程的资金累计达到了94.1亿元，投资建设监管体系建设的资金累计达到了42.3亿元。</text>
+</view>
+
+<view class="text-center flex-sub padding">
+  <text class ="text-black text-bold">2014-2018年我国城市垃圾处理固定资产投资额走势</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/in/3.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">随着我国城市化生活的进程加快，再加上居民生活水平的不断提升，城市生活垃圾产生量保持稳定増长的趋势，近年来我国已成为世界上城市生活垃圾处理压力最大的国家之一。根据《2018年全国大、中城市固体废物污染环境防治年报》，2017年，202个大、中城市生活垃圾产生量20194.4万吨，处置量20084.3万吨，处置率达99.5%。</text>
+</view>
+
+<view class="text-center flex-sub padding">
+  <text class ="text-black text-bold">2014-2018年全国大、中城市生活垃圾产生量情况</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/in/4.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center flex-sub padding">
+  <text class ="text-black text-bold">中国生活垃圾组成情况</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/in/5.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">总的来说，我国城市化水平的大幅提高，城市基础设施建设规模有了较大提升，城市环境水平得到进一步改善，但由于各地重视程度不同，部分城市的生活垃圾分类处理水平较低，垃圾处理设施的修建没有跟上步伐，使得垃圾清运和处理量跟不上垃圾产生的速度，形成恶性循环，久而久之，垃圾侵占城市用地问题普遍，地下水源受到污染，环境污染日益严重。有的城市为了解决“垃圾围城”问题，不得不把垃圾转移到较为偏远的地区，导致农村和城乡结合地区的生态环境恶化。因此，社会急需要对于生活垃圾资源化，如此不仅能够解决生态环境问题，还能变废为宝，产生经济效益。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">垃圾分类回收市场空间及前景预测</text>
+</view>
+
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">根据《上海市生活垃圾全程分类体系建设行动计划（2018-2020年）》，2018年将新增16辆有害垃圾专用运输机动车；全市湿垃圾专用收运车辆达640辆。2019年，全市湿垃圾专用收运车辆将达780辆；2020年，达920辆。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">测算假设：上海2020年湿垃圾处理能力6300吨/日，总垃圾处理能力2.5万吨/日，湿垃圾分离占比达到25%，湿垃圾专用车达920辆，对应6.8吨湿垃圾/辆。据此测算，湿垃圾转运车投资空间达101亿元左右。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">随着未来我国逐步实行垃圾分类制度，城市可回收垃圾的比例将逐步提高，未来有望达到90%以上的城市可回收垃圾比例，按照目前我国可回收城市垃圾的占比，未来与之相关的废塑料、废纸等城市垃圾的市场回收将达到800亿元左右。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">和餐厨垃圾相比,我国厨余垃圾的空间和处理需求更大。首先,我们对我国生活垃圾产生量进行估算,方法一:我国城市人均垃圾日产生量约为1-1.2kg,考虑到县城及以下人均垃圾产生水平相对城市居民稍低,可假设全国人均垃圾产生量为1kg/d,并以13亿人口基数测算,则可估算我国年垃圾产生量为4.68亿吨。方法二:根据我国《“十三五”全国城镇生活垃圾无害化处理设施建设规划》,到2020年,我国城镇生活垃圾焚烧设施将达59.1万吨/天,占比为54%,可以估算我国城镇生活垃圾年产生量约4亿吨。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">未来，精细化处置是未来固废行业发展的重要方向；全社会生产、生活规范水平提升也是大势所趋，同时亦涉及社会治理范畴，而前端的重要抓手便是垃圾分类制度。虽然，国家在《“十三五”全国城镇生活垃圾无害化处理设施建设规划》中也规定了2020年城市垃圾无害化处理达到100%的指标要求，但在行业处置精细化程度方面，中国距发达国家仍有较大的差距。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">垃圾分类不仅是一种生活方式的改变，更将对固废产业链利润的重新分配和体系化建设产生深远影响。发展初期监管是关键，既需要发改、住建、市容、公安、商务及环保等多个部门统筹配合，也需要调动社会各界的主观能动性。当前，中国面临经济转型的重要战略机遇期，推动垃圾分类制度是实现高质量发展的重要手段之一。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">随着“垃圾分类”走进千万个机关和企业事业单位、亿万个城市和农村家庭，乃至覆盖全社会，绝大多数生活垃圾都将通过我们的“分类之手”，化腐朽为神奇，摇身一变成为各种宝贵资源，制造成新的产品，继续为我们所用、给生活添彩。如此循环往复，既能让我们的生活环境变得清爽起来，又最大限度地节省了自然资源，对于绿色中国、美丽中国建设大有裨益。</text>
+</view>
+
+
+
+</view>

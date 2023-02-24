@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "search": "/pages/search/search",
+    "news": "/pages/news/news",
+    "practice": "/pages/testmenu/testmenu",
+    "about": "/pages/about/about"
+  }
+  
+}

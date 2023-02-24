@@ -1,0 +1,19 @@
+<view class="white"></view>
+<view class="cu-bar bg-white">
+   <view class="action border-title">
+    <text class="text-xl text-bold text-blue">
+    垃圾垃圾去哪里
+    </text>
+    <text class="bg-gradual-blue"style="width:3rem"></text>
+   </view>
+</view>
+<view class="filter-view" wx:for="{{datas}}" wx:key>
+  <view class="item-view item-o bg-white"  wx:if="{{index%2==0}}">
+    <image class="img" src='{{logo}}'></image>
+    <text  >{{item.name}}</text>
+  </view>
+   <view class="item-view item-ji bg-grey" wx:else>
+    <image class="img" src='{{logo}}'></image>
+    <text  >{{item.name}}</text>
+  </view>
+</view>

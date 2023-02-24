@@ -1,0 +1,268 @@
+<!--pages/news/abroad03/abroad03.wxml-->
+<text>pages/news/abroad03/abroad03.wxml</text>
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国外</view>
+</cu-custom>
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">日本的垃圾分类</text>
+</view>
+
+
+<view class="text-indent:2em text-lg padding">
+  <text class ="text-black">日本从1980年就开始实行垃圾分类回收，如今已经成为世界上垃圾分类回收做得最好的国家。目前，日本每年人均垃圾生产量只有410公斤，为世界最低。更重要的是，垃圾分类投放已经成为日本民众的一种自觉行为，即使没人监督也会严格执行。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/1.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">日本的垃圾分类非常细，除了一般的生活垃圾分为可燃和不可燃垃圾外，资源性垃圾还具体分为干净的塑料、纸张、旧报纸杂志、旧衣服、塑料饮料瓶、听装饮料瓶、玻璃饮料瓶等等。除此之外，更换电视、冰箱和洗衣机还必须和专门的电器店或者收购商联系，并要支付一定的处理费用。大件的垃圾一年只能扔4件，超过的话，要付钱。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/2.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">看起来如此麻烦的事情，日本人却乐此不疲。喝完一瓶可乐后，他们会洗净饮料瓶，揭下外面的塑料包装，把它扔到可回收的塑料垃圾袋中。瓶盖属于不可燃垃圾，而瓶子本身则要放入专门的塑料瓶回收箱。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">扔垃圾也有时刻表</text>
+</view>
+
+
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">更为麻烦的是扔垃圾。在日本，每户家庭的墙上都贴有两张时刻表，一张是电车时刻表，另一张就是垃圾回收时间表。每周7天，回收垃圾的种类每天各不相同。居民需要在垃圾清运当天早晨8点前，把垃圾堆放到指定地，不能错过时间，否则就要等下周。分类垃圾被专人回收后，会进行环保再利用。日本的免费公厕都提供免费卫生纸，在这些卫生纸上，也打印着一行小字：这些卫生纸都是利用回收的车票做成的。日本人对超市垃圾的处理也是值得学习的。以白色饭盒为例，人们在超市买了白色饭盒装的东西回家后，不会随手把饭盒扔掉，而是在使用后把饭盒再交回超市，由超市把饭盒统一返还给厂家进行再利用。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">目前日本一共有40个生产饭盒的工厂，其中8家工厂既生产饭盒，又回收饭盒。而这8家的生产量，占到日本总饭盒生产量的90%。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">日本政府宣传环保很“给力”</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">这样的结果与日本政府的环保管制和宣传得力是分不开的。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在日本，市民如违反规定乱扔垃圾，就是违反了“废弃处置法”，会被警察拘捕并课以3万~5万日元的罚款。但是垃圾分类投放已经成为日本民众的一种自觉行为，你如果你不严格的执行垃圾分类的话，将面临巨额的罚款，在以住宅团地为单位的区域社会，落下个“不履行垃圾分类”的名声，那可是老丢人的事了。所以大家即使没人监督也会严格执行。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">日本的垃圾分类是母亲手把手教下一代的。从出生开始就学起的。有些学到老也分不对的也大有人在。比如一个香烟盒，其间的纸盒、外包的塑料薄膜、封口处的那圈铝箔。这个香烟盒就要分三类：外包是塑料，盒子是纸，铝箔是金属，所以这件东西就要分三类丢弃。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/3.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">幼儿园的孩子都知道普通的环保知识，并以此来督促自己的父母长辈自觉遵守。日本政府对每一类垃圾都有相应的垃圾袋出售，而超市售出的每一样产品的外包装上都会注明此类包装属于什么样的可回收资源。这样养成习惯后，看似繁琐的垃圾分类也就得心应手了。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">有的行政区年底还会给居民送上来年的“年历”，在“年历”的下方注有说明：每一种颜色代表哪一天可以扔何种垃圾。“年历”上还配有各种垃圾的漫画，帮人们加以区别。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/4.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">垃圾分类对日本的孩子来说，是从小旧看惯了的事，成年人遵守得一丝不苟，榜样的力量就会铸就他一生的习惯。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/5.png" class='in-image'   >
+  </image>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/6.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">这里是一个日本小学里的孩子在清洗牛奶盒的过程，这样严格执行繁琐的清理过程，就是重要的素质教育。这样的素质，铸就了一个了不起的可怕的民族。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">清洗牛奶盒的过程
+  1.在教室里，小朋友把牛奶盒里的牛奶喝得干干净净；
+2.在装着水的桶里汲水来清洗牛奶纸盒；(注意：不是在水龙头下洗哦，那很浪费水的
+3.因为已经养成习惯，小朋友一个接一个的来清洗；
+4.把洗好的牛奶盒水倒干以后放在通风透光处晾晒；
+5.把前一天晒好的牛奶盒用剪刀剪开，方便收集；(到底是二年级的学生了，已经很会用剪刀)
+6.工作人员来收集同学们的牛奶盒。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/7.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在日本的写字楼，楼道里的垃圾桶都干干净净的一大排，严格区分垃圾。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/8.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">日本的办公场所都寸土寸金，尽管如此，垃圾箱也会毫不缩水的霸占一大片位置。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/9.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">这是一个饮料瓶子，在中国可能只随手一扔就完了，在日本，丢弃之前需要以下五个步骤。
+１.喝光或倒光。
+２.简单水洗。
+３.去掉瓶盖，撕掉标签。
+４.踩扁。
+５.根据各地的垃圾收集规定在“资源垃圾”日拿到指定地点，或者丢到商场或方便店设置的塑料瓶回收箱。
+</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/10.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">随便一个小小的商品，纸张和塑料都有分类处理的标识，也就是说，日本人在丢弃的时候必须分开丢弃。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/11.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在日本垃圾回收的时间是固定的，错过了就要等下一次。比如厨余垃圾被叫做“生垃圾”，因为它会腐败和产生味道，因此一周有两次回收的时间。每年12月，市民会收到一份年历，每天的颜色不同，这些颜色分别代表不同垃圾的回收时间。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/12.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">横滨的垃圾分类手册竟然长达27页，纷繁复杂的条款让人难以置信。因为难以记忆，家庭主妇一般都要在厨房里放一份分类手册，随时翻阅。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/13.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">分类后的报纸被直接送到造纸厂，用以生产再生纸；饮料瓶、罐和塑料等被送到的工厂处理后做成产品；电视和冰箱等被送到专门的会社，进行分解和处理；至于大衣柜和写字台被粉碎型垃圾车吞进肚里后，再次分类后成为有用之材。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/14.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在日本，丢垃圾都是充满了人文关怀，很多丢弃充满了感人的细节。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">垃圾分类</text>
+</view>
+
+<view class="flex-sub">
+  <text class="padding">丢弃的报纸会捆扎得整整齐齐；
+丢弃的废电器，电线会捆绑在电器上；
+扔掉可使用的自行车上会贴一张小纸条：“我是不要的”；
+盛装液体的容器，是被空干、清洗干净后扔掉的；
+带刺或锋利的物品，要用纸包好再放到垃圾袋里；
+用过的喷雾器，一定要扎个空，防止出现爆炸现象。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/15.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在日本，由很多环保的生活习惯在家庭里传承，比如吃完饭后，有油的碟子要先用废报纸（日本的油墨是大豆做的）擦干净再拿去清洗，这样会减少洗涤剂使用和让难分解的油污进入下水道。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/16.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">日本超市里的塑料盒被主妇们带回家，她们把菜拿出来后，会把塑料盒洗干净，自觉送会超市。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">厨房的废油，在日本是这样处理的。主妇们会自己出钱去超市购买一种凝固剂，凝固剂倒入废油，油就成为固体了，然后将固体的油用报纸包好，作为可燃垃圾处理掉。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/17.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">日本的食品及其他生活用品以纸包装、环保包装居多。从自动贩卖机购买一盒纸装饮料，价格中含有10日元押金，当消费者饮用完毕，将折叠好的纸包装投入旁边的自动回收机后，押金就会自动返还。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/18.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">日本的垃圾处理站叫做是资源循环站。垃圾经过分类处理后变废为宝，有的用于火力发电，有的用来建设蒸汽游泳池，从垃圾里提取金属成为原料，最后剩下来的垃圾渣用来铺路和填海，日本有个娱乐区叫台场，就有一半是垃圾填出来的。</text>
+</view>
+
+<view class="flex-sub text-black text-bold text-indent:2em">
+  <text class="padding">日本几乎做到了垃圾百分之百回收，依赖的不是先进的技术和发达的科技，是全民对环境的敬畏、真挚的感情和高度的民众的自觉性。</text>
+</view>
+
+<view class="padding margin-top" :class="size?'solids-bottom':'solid-bottom'"></view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">小知识——日本将垃圾分4类</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/Japan/19.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="flex-sub  text-indent:2em">
+  <text class="padding">1.一般垃圾，包括厨余类、纸屑类、草木类、包装袋类、皮革制品类、容器类、玻璃类、餐具类、非资源性瓶类、橡胶类、塑料类、棉质白色衬衫以外的衣服毛线类。
+2.可燃性资源垃圾，包括报纸 (含传单、广告纸)、纸箱、纸盒、杂志(含书本、小册子)、旧布料 (含毛毯、棉质白色衬衫、棉质床单)、装牛奶饮料的纸盒子。
+3.不燃性资源垃圾，包括饮料瓶(铝罐、铁罐)、茶色瓶、无色透明瓶、可以直接再利用的瓶类。
+4.可破碎处理的大件垃圾，包括小家电类(电视机、空调机、冰箱/柜、洗衣机)、金属类、家具类、自行车、陶瓷器类、不规则形状的罐类、被褥、草席、长链状物(软管、绳索、铁丝、电线等)。</text>
+</view>
+
+</view>
+

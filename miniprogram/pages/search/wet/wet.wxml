@@ -1,0 +1,32 @@
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">厨余垃圾</view>
+
+</cu-custom>
+
+<view class="padding bg-cyan">
+
+<view class="text-xl text-white padding">
+  <text class =" text-bold">厨余垃圾</text>
+</view>
+
+<view class="flex-sub padding">
+  <text class ="text-white">指居民在家庭生活中产生的垃圾，主要包括:丢弃不用的菜叶、剩菜、剩饭、果皮、蛋壳、茶渣、骨头等。</text>
+</view>
+
+<view class="text-lg padding text-white">
+  <text class ="cuIcon-right">厨余垃圾投放前尽量沥干水分;</text>
+</view>
+
+<view class="text-lg padding text-white">
+  <text class ="cuIcon-right">有包装物的厨余垃圾应将包装物去除后分类投放，包装物应投放到对应的可回收物或其他垃圾收集容器;</text>
+</view>
+
+<view class="text-lg padding text-white">
+  <text class ="cuIcon-right">盛放厨余垃圾的容器，如塑料袋等，在投放时应予去除。</text>
+</view>
+
+</view>
+

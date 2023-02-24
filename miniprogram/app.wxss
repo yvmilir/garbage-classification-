@@ -1,0 +1,16 @@
+/**app.wxss**/
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+@import "colorui/animation.wxss";
+
+page {
+  font-style:normal;
+  font-weight:normal;
+  font-size:normal;
+}
+/*
+page {
+  font-style:italic;
+  font-weight:bold;
+  font-size:large;
+}*/

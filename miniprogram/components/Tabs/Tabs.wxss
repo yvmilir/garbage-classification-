@@ -1,0 +1,16 @@
+.tabs{}
+.tabs_title{
+  display: flex; /*-伸缩盒子*/
+  padding: 10rpx;
+}
+.title_item{
+  flex: 1;
+  display: flex;
+  justify-content: center;/*水平对齐*/
+  align-items: center;/*垂直对齐*/
+}
+.active{
+  color:blue;
+  border-bottom: 5rpx solid currentColor;
+}
+.tabs_content{}

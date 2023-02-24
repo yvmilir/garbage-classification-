@@ -1,0 +1,62 @@
+<!-- 导航栏 -->
+<cu-custom id="navigation" bgColor="bg-white" isBack="{{true}}">
+  <view slot="backText">退出</view>
+  <view slot="content">测试</view>
+</cu-custom>
+
+<!-- 剩余时间条 -->
+<view id="header" class="flex padding-right-xs cu-bar fixed" style="padding-top:{{CustomBar}}px;">
+  <view class="cu-progress round xs">
+    <view class="bg-{{timeColor}}" style="width:{{(clock/limitTime)*100}}%;"></view>
+  </view>
+  <text class="margin-left">{{clock}}s</text>
+</view>
+
+<!-- 答题区域 -->
+<view wx:if="{{currentTopic}}" id="body" class="margin-left-xs margin-right-xs margin-top-lg animation-{{anotherOne}}" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+
+  <view id="textView" style="height:{{height}}px;">
+    <view id="textTitle" class="title">
+      <view class="text-center padding-right padding-top padding-left">
+        <text class="text-bold text-title" space="3px">{{currentTopic.title}}</text>
+        <text class="text-title">{{currentTopic.question}}</text>
+      </view>
+      <view class="padding-lg text-center">
+        <button class="round margin-top-lg {{currentTopic.answer == 1 ? 'bg-black animation-' : ''}}{{animation}} {{currentTopic.correctAnswer == 1 ? 'bg-green':''}}" style="width:{{windowWidth/2}}px" bindtap="chooseAnswer" data-value="{{answer[0].name}}" id="{{answer[0].id}}">
+          {{answer[0].name}} </button>
+        <button class="round margin-top-lg {{currentTopic.answer == 2 ? 'bg-black animation-' : ''}}{{animation}} {{currentTopic.correctAnswer == 2 ? 'bg-green':''}}" style="width:{{windowWidth/2}}px" bindtap="chooseAnswer" data-value="{{answer[1].name}}" id="{{answer[1].id}}">
+          {{answer[1].name}} </button>
+        <button class="round margin-top-lg {{currentTopic.answer == 3 ? 'bg-black animation-' : ''}}{{animation}} {{currentTopic.correctAnswer == 3 ? 'bg-green':''}}" style="width:{{windowWidth/2}}px" bindtap="chooseAnswer" data-value="{{answer[2].name}}" id="{{answer[2].id}}">
+          {{answer[2].name}} </button>
+        <button class="round margin-top-lg {{currentTopic.answer == 4 ? 'bg-black animation-' : ''}}{{animation}} {{currentTopic.correctAnswer == 4 ? 'bg-green':''}}" style="width:{{windowWidth/2}}px" bindtap="chooseAnswer" data-value="{{answer[3].name}}" id="{{answer[3].id}}">
+          {{answer[3].name}} </button>
+      </view>
+      <!-- 分页 -->
+      <view id="pages" class="bg-white testcenter margin-top-4xl">
+        <text class="margin-top padding-bottom padding-top cuIcon-{{currentTopicNum == 1 ? '':'back'}} text-bold" style="width:{{0.08*windowWidth}}px;" bindtap="{{currentTopicNum == 1 ? '': 'previousPage'}}"></text>
+        <text class="margin-top padding-bottom padding-top {{currentTopicNum-1 == item ? 'text-bold text-green' : ''}}" style="width:{{0.08*windowWidth}}px;" wx:for-items="{{10}}" wx:key="index" id="{{item+1}}" bindtap="choosePage">{{item+1}}</text>
+        <text class="margin-top padding-bottom padding-top cuIcon-{{currentTopicNum == 10 ? '':'right'}} text-bold" style="width:{{0.08*windowWidth}}px;" bindtap="{{currentTopicNum == 10 ? '': 'nextPage'}}"></text>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 答题完成后出现的弹窗-->
+<view class="cu-modal {{resultModel ?'show':''}}" bindtap="hideModal">
+  <view class="cu-dialog">
+    <!--答案明细-->
+    <view class="text-center margin-lg">
+      <text class="text-bold text-title">垃圾分类测试成绩</text>
+      <view class="text-bold text-title margin">
+        <text class="text-red">{{grade}}</text>
+        <text>分/第</text>
+        <text class="text-red">{{ranknum}}</text>
+        <text>名</text>
+      </view>
+    </view>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">我知道了</view>
+    </view>
+  </view>
+</view>

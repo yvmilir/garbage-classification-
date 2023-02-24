@@ -1,0 +1,39 @@
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">可回收物</view>
+
+</cu-custom>
+
+
+
+<view class="padding bg-olive">
+
+<view class="text-xl text-white padding">
+  <text class =" text-bold">可回收物</text>
+</view>
+
+<view class="flex-sub padding">
+  <text class ="text-white">指适宜回收和资源利用的垃圾。主要包括:包括纸类、塑料、玻璃、金属、织物和瓶罐等。</text>
+</view>
+
+<view class="text-lg padding text-white">
+  <text class ="cuIcon-right">投放可回收物时，应尽量保持清洁干燥，避免污染；</text>
+</view>
+
+<view class="text-lg padding text-white">
+  <text class ="cuIcon-right">废纸应保持平整;</text>
+</view>
+
+<view class="text-lg padding text-white">
+  <text class ="cuIcon-right">立体包装物应清空内容物，清洁后压扁投放;</text>
+</view>
+
+<view class="text-lg padding text-white">
+  <text class ="cuIcon-right">废玻璃制品和废旧电器电子产品应轻投轻放，有尖锐边角的应包裹后投放。</text>
+</view>
+
+</view>
+
+

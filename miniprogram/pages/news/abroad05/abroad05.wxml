@@ -1,0 +1,198 @@
+<!--pages/news/abroad05/abroad05.wxml-->
+<text>pages/news/abroad05/abroad05.wxml</text>
+
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国外</view>
+</cu-custom>
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">英国：生活中的垃圾分类</text>
+</view>
+
+<view class="text-lg padding">
+  <text class ="text-black">家园导读：刚到英国的我们可能不太了解英国的垃圾分类，或者也不怎么关心这个问题，其实英国的垃圾回收还蛮严格的，如果不好好分类随便乱丢，垃圾有可能会被拒收或者被邻居投诉。不过英国各个城市以及伦敦不同区垃圾回收的规定都不太一样，在这里给大家综合了一下基本的垃圾回收方法，那该怎么将垃圾分类，废旧家具电器该怎么回收呢？</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">食物（Food Waste）</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">关于食物的回收有些地方会发给专门的食物垃圾袋（也有的地方叫做liner）或者回收桶，可以往里扔任何生、煮熟、过期的食物。但是扔到回收桶里之前要去除掉包装（尤其是塑料包装），另外还要说一点，如果是回收牛奶盒、食物罐头啊，一定要把里边的食物倒干净，最好再用水冲一下，再放到回收桶里。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">以及不要往里倒任何液体，收垃圾的时候可能会漏而且还会给回收工序造成麻烦。如果没有给你发任何回收桶或者袋子，那这些食物垃圾就直接扔进你的不可回收垃圾桶里。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/1.png" class='in-image'   >
+  </image>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/2.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">塑料瓶（Plastic bottles）</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">有的社区可能会免费给你垃圾桶或者透明回收塑料袋，用来回收塑料瓶（不包括瓶盖）、喷雾瓶（厨房清洁或者洗衣服用到的喷洒瓶都可以）、护肤品瓶、饮料瓶、牛奶瓶等。注意不能回收瓶盖、塑料膜、保鲜膜、塑料袋、塑料食物盘、塑料玩具、酸奶盒。还有放进回收桶或者袋之前，一定要把塑料瓶里的液体倒干净，最好冲洗一下，外包装可以不用撕，但是瓶盖要清除掉，为了节省地方可以把塑料瓶挤压一下再放进去。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/3.png" class='in-image'   >
+  </image>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/4.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">小型电器 （Electrical Items）</text>
+</view>
+
+
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">像电水壶、吹风机、电动牙刷、熨斗、闹钟、电动玩具、手机、台灯这种小型的电器通常有两种回收方法：</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">一种街道会有带有粉色表示的回收，直接把这些物品从回收箱的口里放进去就行了；
+有些地方可能会要求你把不要的电器放进塑料袋里，然后放在垃圾桶旁边，这样收垃圾的时候就一块儿收走。
+如果还能用的话，但你就是不想要了，可以捐给当地慈善组织,具体的联系方式大家可以去Recycle Now的官网查看(https://www.recyclenow.com/what-to-do-with/electrical-items-0)。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/5.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">电池（Batteries）</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">大到电器电池，小到手表电池都可以被回收，一般卖电池的地方或者某些超市会有这种专门回收电池的电池箱。要记得废电池不能随便丢到普通的垃圾桶里，废电池中含有大量的重金属以及有毒的化工废物；它们的随意丢弃会造成严重的土壤污染以及水污染。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/6.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">大件垃圾（Bulky Waste）</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">像是洗衣机、电视、冰箱、家具这类的大件物品，大家可以联系当时买的厂商，他们会帮助你回收（不过会有服务费）；如果是自己回收那要送到当地的回收中心或者打电话上门来取（也是有服务费），大家可以查询一下最近的回收点（https://www.recyclenow.com/local-recycling）。如果还能使那当然就是捐给当地慈善组织啦，可以自己联系也可以联系回收点让他们帮你取走。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/7.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">衣物布料（Clothes and Textiles）</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">旧衣物、床单被罩、枕头、靠垫抱枕、窗帘、鞋都属于这一类，其中一种回收方法就是放到捐赠箱也有叫服装银行的，一般停车场、住宿区、都会有这种类似于捐赠衣物的大箱子；或者查找一些离自己近的回收点（https://www.recyclenow.com/what-to-do-with/clothing-textiles-0)。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">这个是最常见的垃圾桶~只要你不要的衣服，坏了的都可以扔进去，有时候这个垃圾桶都爆满。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/8.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">药品</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">没用过的、过期的或者不再需要的药品需要送回药店进行回收，千万不要随便就冲下厕所了。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">装药品的塑料板就没用了，这个扔进垃圾桶就行，如果是装药品的纸盒子，那可以和纸质物品一起回收。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/9.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">其他物品</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">上面列出来的是垃圾回收常见的几大类，如果大家不清楚特定的物品该怎么回收，可以去Recycle Now这个网站（https://www.recyclenow.com/what-to-do-with），查询要回收的物类别，里面会告诉你能不能回收以及具体的回收方法。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">装药品的塑料板就没用了，这个扔进垃圾桶就行，如果是装药品的纸盒子，那可以和纸质物品一起回收。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">透明回收塑料袋（Clear recycling sack）</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">比如像伦敦金融城（英国的一个超市）会免费发给每家这种透明的塑料袋，这是用来回收纸制品、盒装制品（鸡蛋盒纸箱等）、塑料瓶（记得清洗）、玻璃瓶罐、塑料瓶、罐头等等。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">不要放任何食物、塑料薄膜（比如保鲜膜）、餐巾纸、陶瓷制品、玻璃杯、衣物等。有些地方可能不会主动发，但是如果大家想要这种回收垃圾袋，要和当地工作人员要求，也能免费拿到，具体的大家还是要以自己所在的城市规定为准。</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/10.png" class='in-image'   >
+  </image>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">如何查找自己城市的垃圾回收规定</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">因为伦敦又被细分为不同行政区（自治的市镇区），每个区又有自己回收垃圾的规定，大家可以去GOV.UK输入自家邮编，查看自己属于哪个区的，然后在Google里输入waste and recycling加上你行政区的名字就能找到有关垃圾分类的规定啦。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">在伦敦外的小伙伴们就简单多了，直接输入waste and recycling加上城市名字就可以啦</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">英国还有很多不同颜色的垃圾桶，里面扔的垃圾都是不一样的哟~~</text>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/11.png" class='in-image'   >
+  </image>
+</view>
+
+<view class='imagesize'>
+  <image src="cloud://garbage-eflyw.6761-garbage-eflyw-1301474914/images/pictures/uk/12.png" class='in-image'   >
+  </image>
+</view>
+
+
+</view>
+

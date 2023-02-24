@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "Tabs":"../../components/Tabs/Tabs"
+  },
+  "navigationBarBackgroundColor": "#B0E0E6",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "资讯",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

@@ -1,0 +1,24 @@
+<!--miniprogram/pages/search/dry/dry.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+	<view slot="backText">返回</view>
+	<view slot="content">其他垃圾</view>
+
+</cu-custom>
+<view class="padding bg-yellow">
+
+<view class="text-xl text-white padding">
+  <text class =" text-bold">其他垃圾</text>
+</view>
+
+<view class="flex-sub padding">
+  <text class ="text-white">除去可回收物、有害垃圾、厨余垃圾之外的所有垃圾。主要包括:受污染与无法再生的纸张、受访染或其他不可回收的玻璃、塑料袋与其他受污染的塑料制品、废旧衣物与其他纺织品、破旧陶瓷品、难以自然降解的肉食。</text>
+</view>
+
+<view class="text-lg padding text-white">
+  <text class ="cuIcon-right">其他垃圾应投入其他垃圾收集容器，并保持周边环境整洁。</text>
+</view>
+
+</view>
+

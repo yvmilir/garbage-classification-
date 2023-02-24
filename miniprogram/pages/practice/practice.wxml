@@ -1,0 +1,10 @@
+<!--miniprogram/pages/practice/practice.wxml-->
+<view class="white"></view>
+<view class="cu-bar bg-white">
+   <view class="action border-title">
+    <text class="text-xl text-bold text-blue">
+    垃圾分类小练习
+    </text>
+    <text class="bg-gradual-blue"style="width:3rem"></text>
+   </view>
+</view>

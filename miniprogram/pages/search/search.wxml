@@ -1,0 +1,55 @@
+<view class="white"></view>
+<view class="cu-bar bg-white">
+   <view class="action border-title">
+    <text class="text-xl text-bold text-blue">
+    垃圾垃圾去哪里
+    </text>
+    <text class="bg-gradual-blue"style="width:3rem"></text>
+   </view>
+</view>
+<view class="white"></view>
+<view class="white"></view>
+<view class='imagesize'>
+  <image src="/images/logo.jpg" class='in-image'   >
+  </image>
+</view>
+<view class="white"></view>
+<view class="cu-bar bg-darkGray search"bindtap="goSearch">
+  <view class=" search-form  round ">
+    <text class="cuIcon-search text-green"></text>
+    <input type="text" placeholder="输入垃圾名称" confirm-type="search" bindinput="searchIcon"></input>
+  </view>
+</view>
+ <view class="cu-list menu sm-border card-menu margin-top">
+
+     
+    <view class="cu-item arrow">
+      <navigator class="content" hover-class="none" role="navigation" url="../search/wet/wet" >
+        <image src="/images/wet.png" class="png" mode="aspectFit"></image>
+        <text class="text-grey">厨余垃圾</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" hover-class="none" role="navigation" url="../search/harmful/harmful" >
+        <image src="/images/harm.png" class="png" mode="aspectFit"></image>
+        <text class="text-grey">有害垃圾</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" hover-class="none" role="navigation" url="../search/recy/recy" >
+        <image src="/images/recy.png" class="png" mode="aspectFit"></image>
+        <text class="text-grey">可回收物</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" hover-class="none" role="navigation" url="../search/dry/dry" >
+        <image src="/images/dry.png" class="png" mode="aspectFit"></image>
+        <text class="text-grey">其他垃圾</text>
+      </navigator>
+    </view>
+
+
+   
+
+  
+  </view>

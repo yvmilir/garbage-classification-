@@ -1,0 +1,62 @@
+<!--pages/news/standard05/standard05.wxml-->
+<text>pages/news/standard05/standard05.wxml</text>
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">标准</view>
+</cu-custom>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">(福州采用将垃圾分为厨余（湿）垃圾、有害垃圾、可回收物、其他垃圾和大件垃圾的分类方法”)</text>
+</view>
+<view class="padding bg-white">
+<view class="text-center text-lg text-balck text-bold">
+  <text class="padding">具体的垃圾分类主要按照以下标准</text>
+</view>
+<view class="text-center text-lg text-balck text-bold">
+  <text class="padding">
+  </text>
+</view>
+
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">易腐垃圾</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">易腐垃圾，是指从事餐饮服务、集体供餐、食品加工等活动产生的餐饮垃圾和居民家庭产生的厨余垃圾等易腐的废弃食材、剩菜剩饭、蔬菜瓜果、肉类、水产品等生活废弃物。</text>
+</view>
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">可回收物</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">可回收物，是指适宜回收和可循环再利用的废纸类、塑料、金属、纺织物、电子电器、玻璃、木料等废旧物质。</text>
+</view>
+
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">有害垃圾</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">有害垃圾，是指对人体健康、自然环境造成直接或者潜在危害的废弃电池、荧光灯管、温度计、血压计、药品、油漆、溶剂、化学农药、消毒剂、胶片和相纸等物质。</text>
+</view>
+
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">大件垃圾</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">大件垃圾，是指整体性强、需要拆解处理，重量超过五千克或者体积超过零点二立方米或者长度超过一米的废旧家具以及家用电器、电子产品等固体废弃物。</text>
+</view>
+<view class="text-lg text-balck text-bold">
+  <text class="cuIcon-right">其他垃圾</text>
+</view>
+
+<view class="text-lg text-balck">
+  <text class="padding">其他垃圾，是指除前四项以外的其他生活废弃物。</text>
+</view>
+
+
+</view>
+

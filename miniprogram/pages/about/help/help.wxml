@@ -1,0 +1,51 @@
+<!--miniprogram/pages/about/help/help.wxml-->
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view class="white"></view>
+  <view class="white"></view>
+  <view slot="backText">返回</view>
+  <view slot="content">帮助</view>
+</cu-custom>
+
+
+
+
+
+<view class="text-center text-xl text-balck text-bold">
+  <text class="padding">垃圾垃圾去哪里小程序使用说明</text>
+</view>
+<view class="cu-list menu sm-border card-menu margin-top">
+  <text class="text-black">感谢您使用垃圾垃圾去哪里。</text>
+</view>
+
+<view class="cu-list menu sm-border card-menu margin-top">
+  <text class="text-black">您能看到这段文字就证明了您已经初步了解了小程序的界面，下面我将为您介绍一下小程序的使用方法</text>
+</view>
+
+<view class="cu-list menu sm-border card-menu margin-top">
+  <text class="text-black">在小程序的初始界面下方您将看到下边栏，下边栏中有四个按钮：搜索、资讯、练习、关于。</text>
+  <text class="text-black">您可以通过点击按钮进入对应的功能界面，下面将为您介绍每个界面的使用方法。</text>
+</view>
+
+<view class="cu-list menu sm-border card-menu margin-top">
+  <text class="text-black">搜索界面中央有一条搜索框，您可以点击搜索框进入按名称搜索的界面。</text>
+  <text class="text-black">界面上方有一条搜索框，您可以点击搜索框输入您想要查找的垃圾名称，小程序通过模糊搜索会显示下拉栏。</text>
+  <text class="text-black">下拉栏会显示名称与您的输入相似的垃圾，您可以找到您想要搜索的垃圾。点击垃圾可以放大垃圾的分类图片</text>
+  <text class="text-black">完成查询后您可以点击左上角的返回按钮回到搜索界面。</text>
+</view>
+
+<view class="cu-list menu sm-border card-menu margin-top">
+  <text class="text-black">资讯界面上方有着和下边栏相似的窗栏，您可以通过点击按钮来查看对应类型的资讯信息。</text>
+  <text class="text-black">界面中央将会显示与类型对应的资讯内容，您可以点击资讯的窗口来查看更详细的内容。</text>
+  <text class="text-black">您还可以通过上下滑动来查看更多的信息。</text>
+</view>
+
+<view class="cu-list menu sm-border card-menu margin-top">
+  <text class="text-black">练习界面上方有着您当前的排名和积分信息，中央有难度选择按钮和开始按钮，您可以在点击难度按钮选择难度后点击开始按钮进入答题界面。</text>
+  <text class="text-black">答题界面上方会显示题目和时间，您可以点击题目下方的按钮来选择正确的答案</text>
+  <text class="text-black">答题完毕或计时归零后，小程序将批改您的回答并显示得分。</text>
+  <text class="text-black">完成答题后您可以点击左上角的退出按钮回到练习界面。</text>
+</view>
+
+<view class="cu-list menu sm-border card-menu margin-top">
+  <text class="text-black">再次感谢您使用垃圾垃圾去哪里。</text>
+</view>

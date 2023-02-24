@@ -1,0 +1,58 @@
+<!--pages/news/local04/local04.wxml-->
+<text>pages/news/local04/local04.wxml</text>
+
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国内</view>
+    </cu-custom>
+
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">让垃圾分类政策落地跑起来</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">◇生活垃圾分类难在源头，重在坚持。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">◇要让垃圾分类走进人们日常生活，积极探寻较为接地气、易于操作的方法。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">◇在引导居民垃圾分类投放的过程中，应建立容错机制。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">将生活垃圾分类，提高其资源利用水平，不断改善环境质量，多数群众是举双手赞成的。然而，在实施过程中，“但听楼梯响，不见人下来”的情况依然常见，真正动手分垃圾的还是少数，以至于这项工作推动多年，效果不尽如人意。2019年开始的新一轮生活垃圾分类高起点规划，全面动员，各方面有望取得新突破。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">生活垃圾分类难在源头，重在坚持。不开展源头分类，特别是干湿混放，会带来诸多问题，如容易导致有回收利用价值的干垃圾被湿垃圾沾污，末端再分离时，清洗成本高，工作条件恶劣，而且作为再生资源其卫生状况是否会带来健康隐患也令人担心，不利于发展循环经济。因此，应全面动员，全民参与，通过持续教育、引导，使生活垃圾分类成为居民的基本常识和技能。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">要让垃圾分类走进人们日常生活，就应该坚持以人为本的理念，积极探寻较为接地气、易于操作的方法，也可以增加趣味性，吸引大家参与其中。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">例如，四大类生活垃圾中，有害垃圾产生量相对较小，其回收装置容积就可以相对小一些，把空间留给餐厨垃圾和其他垃圾；在回收装置旁边放置长柄手钳，使人们不用弯腰就可以捡起地上不小心散落的垃圾；依据人类功效学，调整回收装置高度，使投放最舒适；把回收装置设计成由易拉罐组装成的动物造型，当人们把易拉罐丢进去时，会发出夸张的吃掉食物的声音等。这些细节的完善会使居民体会到垃圾分类倡导者的贴心和用心，从而受到感染，提高垃圾分类的自觉性和积极性。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">与此同时，还要培训居民正确分类垃圾，减少因不清楚如何分类带来的困扰。培训时尽量避免死记硬背的方法，尽量用生动的方式讲清分类原则，让人们在理解的基础上进行操作。另外，可以在回收装置上进行更加细致的说明，辅助居民正确投放。在引导居民垃圾分类投放的过程中，应建立容错机制，逐步纠正大家的认识误区，而不是看见就罚，从而逐渐消除抵触情绪。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">此外，应及时收集生活垃圾分类过程中出现的问题，妥善应对。如定点定时投放如何兼顾加班或者三班倒的人群？合租房会不会成为推进工作的死角，类似的难点区域怎么加强管理？家里空间小，市场上能否推广立体式的分隔垃圾桶？能否在投放点加装移动式洗手池？当居民有所呼时，政府或者社会组织积极响应，才能形成良性互动，取得更好的效果。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">生活垃圾分类是利民利国的，居民的举手之劳将创造巨大的价值。因此，我们要以钉钉子的精神，分清阶段，稳步推进。特别要注意的是，生活垃圾分类不要简单地“一刀切”，政策设计者和执行者都应俯下身子倾听居民诉求，让政策比着现实去设计、贴着人心去执行，做足、做细、做充分，尤其是引导居民体会生活垃圾分类带来的变化，提高获得感，使良好的制度设计真正落地跑起来。</text>
+</view>
+
+
+</view>

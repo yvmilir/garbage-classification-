@@ -1,0 +1,6 @@
+/* miniprogram/pages/search/wet/wet.wxss */
+.white
+{
+background-color:white;
+height: 200rpx;
+}

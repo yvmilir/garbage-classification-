@@ -1,0 +1,144 @@
+<!--pages/local01/local01.wxml-->
+<text>pages/local01/local01.wxml</text>
+<cu-custom bgColor="bg-white" isBack="{{true}}"> 
+  <view class="white"></view> 
+  <view class="white"></view> 
+    <view slot="backText">返回</view> 
+    <view slot="content">国内</view>
+    </cu-custom>
+
+<view class="padding bg-white">
+
+<view class="text-center text-xl padding">
+  <text class ="text-black text-bold">各地垃圾分类标准稍有差异 八成以上采取“四分法”</text>
+</view>
+
+<view class="text-lg padding">
+  <text class ="text-black text-bold">来源：法治周末</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">“能卖拿去卖、有害单独放、干湿要分开”“可回收，丢蓝色，有害垃圾丢红色，厨余垃圾是绿色，其他垃圾用灰色。”当上海的居民通过各种段子、顺口溜中学习垃圾分类的诀窍时，北京的强制垃圾分类时代到来了。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">近日，《北京市生活垃圾管理条例修正案（草案送审稿）》（以下简称草案送审稿）在网上公开征求意见。此草案送审稿是针对2012年3月1日正式实施的《北京市生活垃圾管理条例》作出的修订。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">可以看到，北京的垃圾分类不同于上海。上海分为干垃圾、湿垃圾、有害垃圾、可回收垃圾，北京则分为厨余垃圾、可回收垃圾、有害垃圾、其他垃圾。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">6月28日，住房和城乡建设部公布了全国46个垃圾分类重点城市，到2020年年底要基本建成垃圾分类处理系统。法治周末记者通过梳理这46个先行先试的重点城市已出台的相关文件后发现，80%以上的城市采取“四分法”，但各地的垃圾分类标准稍有差异。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">各地垃圾分类标准有何不同</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">具体来看，北京、沈阳、哈尔滨、南京、宁波、合肥、厦门、广州、济南、郑州、宜春、成都、西安、银川、深圳、天津等23个城市采用“可回收垃圾、有害垃圾、厨余（餐厨）垃圾、其他垃圾”的“四分法”。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">重庆、石家庄、太原、大连、长春、苏州、杭州、南昌、海口、昆明等14个城市采用“有害垃圾、易腐垃圾、可回收垃圾、其他垃圾”的“四分法”。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">上述采取“四分法”的城市中，主要区别是“易腐垃圾”和“厨余垃圾”。多个城市的垃圾分类专项文件中明确，“易腐垃圾”是指居民日常厨余垃圾及农贸市场、农产品批发市场等产生的易腐性垃圾。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">此外，上海和邯郸都将生活垃圾分为可回收物、有害垃圾、湿垃圾、干垃圾；广元分为可回收、不可回收及有害垃圾；咸阳分为有害垃圾、可回收物和其他垃圾；拉萨分为有害垃圾、可回收垃圾和易腐垃圾；福州分为厨余（湿）垃圾、有害垃圾、可回收物、其他垃圾和大件垃圾。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">“四分法”中重要的是“湿垃圾”的分类细化标准。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">“湿垃圾”也叫“易腐垃圾”“可烂垃圾”“易烂垃圾”“可腐垃圾”“厨余垃圾”“餐厨垃圾”“食品垃圾”“生物质垃圾”“可降解垃圾”“可生物降解垃圾”“可堆肥垃圾”，本质上是可以生物处理的垃圾。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">一位从事公益环保10余年的业内人士告诉法治周末记者，从科学定义上说，“可生物降解垃圾”是最准确的，但对于城市居民来说，这个词太过专业化。所以，不同地区根据具体情况使用了不同的表达。比如，《上海市生活垃圾管理条例》明确，湿垃圾即易腐垃圾，指食材废料、剩菜剩饭、过期食品、瓜皮果核等易腐废弃物。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">那么，哪些东西属于“易腐垃圾”？上述业内人士表示，这不仅和“易腐垃圾”本身的定义有关，也和实际的垃圾生物处理能力有关。比如，椰子壳、粽子叶按照定义是可腐烂垃圾，但是目前城市的垃圾生物处理设施不足以粉碎椰子壳，粽子叶这类型长纤维结构容易缠绕机械元件，所以椰子壳和粽子叶在归类中被放在了干垃圾。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">“各地执行的基本上都是按照住建部的分类标准，只是叫法不同，但大部分城市都沿用厨余垃圾。”北京市城市管理委员会相关负责人表示。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">违规处罚与信用管理挂钩</text>
+</view>
+
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">《上海市垃圾管理条例》自7月1日正式实施以来，国内掀起一阵垃圾分类的热潮，各地垃圾分类的立法进程也在不断加快，全面进入“法治时代”。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">截至目前，已经有9个城市出台生活垃圾管理条例，包括北京、上海、长春、杭州、宁波、广州等城市。46个重点城市中，有25个城市已明确对个人和单位违规投放生活垃圾的处罚，最高罚款1000元。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">《北京市生活垃圾管理条例》是国内首部以立法形式规范垃圾处理行为的地方性法规，主要对“生活垃圾分类管理责任人”“收集、运输垃圾的单位”和“再生资源回收经营者”三个主体违反垃圾分类处理的行为进行处罚，此次修订的草案送审稿则增加了对个人违规行为的处罚条文，处罚措施比上海更为严厉。</text>
+</view>
+
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">草案送审稿规定，个人“未将生活垃圾分别投放至相应收集容器的，由城市管理综合执法部门责令立即改正，拒不改正的，处200元罚款”。</text>
+</view>
+
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">此外，餐饮服务提供者或者餐饮配送服务提供者主动向消费者提供一次性筷子、调羹等餐具的，旅馆经营单位主动向消费者提供客房一次性日用品的，经相关部门责令整改而不改正的，处1000元以上5000元以下罚款。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">值得注意的是，如果个人不分类投放垃圾，不但可能会被罚款，个人信用还可能受到影响。草案送审稿提出，执法机关应当将当事人违反本条例受到行政处罚或者行政强制的情况共享到本市的公共信用信息平台。行政机关根据本市关于公共信用信息管理规定可以对其采取惩戒措施。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">不仅是北京，杭州在新修改的管理条例中也增加了信用惩戒措施，对违反条例规定受到行政处罚，依照《浙江省公共信用信息管理条例》等有关规定应当作为不良信息的，依法记入有关个人、单位的信用档案。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">太原和铜陵对违规投放垃圾也增加了信用惩戒措施，违反生活垃圾分类有关规定且拒不改正，阻碍执法部门履行职责，打击、报复投诉举报人等情形，相关信息将被纳入社会信用信息共享平台，但可以申请通过参加生活垃圾分类志愿服务活动，将相关信息移出社会信用信息共享平台。</text>
+</view>
+
+<view class="text-center text-lg padding">
+  <text class ="text-black text-bold">垃圾分类责任要清晰</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">尽管各地的分类标准细节不完全一致，但大框架基本一致，采取“四分法”的垃圾收集容器的颜色也很统一。比如，红色对应有害垃圾，蓝色对应可回收，绿色对应易腐垃圾或厨余垃圾，即使易腐垃圾在不同的地区叫不同的名字，人们在投放时也不会出错。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">对此，上海社会科学院法学研究所研究员彭峰认为，推行垃圾分类，关键是要加强引导、因地制宜、持续推进，通过有效的督促引导，培养垃圾分类的好习惯，一起为改善生活环境努力。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">从各地出台的相关文件可以看到垃圾分类“因地制宜”，其中对不同场所的分类垃圾桶也设置了不同的标准。北京修正案草案送审稿提出，住宅小区和自然村应当至少在一处生活垃圾交投点成组设置厨余垃圾、可回收物、有害垃圾、其他垃圾四类收集容器，在其他公共区域可成组设置厨余垃圾、其他垃圾两类收集容器；公共场所应当设置可回收物、其他垃圾两类收集容器，但厨余垃圾产生量较多的公共场所，应当增设厨余垃圾收集容器。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">对此，环保公益组织“零废弃村落”发起人陈立雯向法治周末记者表示，垃圾分类不能仅仅停留在设置垃圾桶的层面，而是一个循序渐进的过程，居民改变生活习惯需要很长的过程，只有通过顶层设计落实责任，强化宣传引导、监督管理和常态执法，从而形成垃圾分类社会文化。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">陈立雯指出，上海出台的垃圾分类管理条例在政策上具有表率作用，规定了市人民政府、市绿化市容部门、市发展改革部门、市房屋管理部门、市生态环境部门、市城管执法部门所负责的垃圾管理工作，并具体到市场监管部门、文化旅游部门、城管执法部门的执法层面。</text>
+</view>
+
+<view class="flex-sub text-indent:2em">
+  <text class="padding">“实践证明，为保证地方法规的可执行性、可持续性，必须要明确垃圾分类责任主体。如果执行部门和行政管理体系的职责划分不清晰、规定不明确，会影响到具体执行问题。在分类投放的阶段，最主要的是监管和执行，处罚也是规范的一个方式，街道办、居委会或是城管执法部门，在垃圾分类的推行中扮演的不是只下命令的管理者，不是只开罚单的监管者。”陈立雯说。</text>
+</view>
+
+
+</view>

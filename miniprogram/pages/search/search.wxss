@@ -1,0 +1,19 @@
+/* miniprogram/pages/home/home.wxss */
+page
+{
+  backgroun:#FFFFFF;
+  height:100%;}
+.white
+{
+background-color:white;
+height: 30rpx;
+}
+
+.imagesize{
+ display:flex;                  
+ justify-content: center;        
+}
+.imagesize image { 
+  width:400rpx;
+  height:400rpx;
+  }
